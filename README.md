@@ -12,7 +12,7 @@
 
 ## 🚀 Live Demo
 
-> 🔗 https://modex.netlify.app
+> 🔗 https://modexrawjet.netlify.app
 
 ---
 
