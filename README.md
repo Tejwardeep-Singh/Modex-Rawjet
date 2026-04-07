@@ -44,15 +44,15 @@
 
 ### 🖼️ Gallery View
 
-*(Add your screenshot here)*
+![gallery](assets/gallery.png)
 
 ### 🧊 Models Section
 
-*(Add your screenshot here)*
+![models](assets/models.png)
 
 ### 🔍 Model Detail Page
 
-*(Add your screenshot here)*
+![details](assets/details.png)
 
 ---
 
