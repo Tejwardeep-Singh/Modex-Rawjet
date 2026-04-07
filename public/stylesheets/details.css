@@ -1,0 +1,20 @@
+.model-detail{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.model-detail h1{
+    margin-bottom: 20px;
+}
+
+.info{
+    margin: 20px 0;
+}
+
+.model-detail a{
+    padding: 10px 20px;
+    background: #4f8cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/public/favicon/site.webmanifest">
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <title>Modex | Home</title>
+</head>
+<body>
+<div id="imgModal">
+    <span id="closeBtn">&times;</span>
+
+    <img id="modalImg" src="">
+
+    
+    <div class="nav prev">&#10094;</div>
+    <div class="nav next">&#10095;</div>
+
+    
+    <div id="counter"></div>
+</div>
+<main>
+    <section id="hero">
+        <h1>Modex</h1>
+        <p>Where Models Come Alive</p>
+    </section>
+
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="/public/images/chess.png" alt="">
+            <img src="/public/images/chess2.png" alt="">
+            <img src="/public/images/stadium1.png" alt="">
+            <img src="/public/images/stadium2.png" alt="">
+            <img src="/public/images/stadium3.png" alt="">
+            <img src="/public/images/stadium4.png" alt="">
+            <img src="/public/images/house1.png" alt="">
+            <img src="/public/images/house2.png" alt="">
+            <img src="/public/images/house3.png" alt="">
+            <img src="/public/images/hosue4.png" alt="">
+            <img src="/public/images/house5.png" alt="">
+            <img src="/public/images/school.png" alt="">
+            <img src="/public/images/cube.png" alt="">
+            <img src="/public/images/hut.png" alt="">
+            <img src="/public/images/layout1.png" alt="">
+            <img src="/public/images/layout2.png" alt="">
+            <img src="/public/images/perfume.png" alt="">
+            <img src="/public/images/skyscraper.png" alt="">
+            <img src="/public/images/sofa.png" alt="">
+        </div>
+    </section>
+
+    <section id="models">
+        <h2>3D Models</h2>
+
+        <!-- Filters -->
+        <div class="filters">
+            <button onclick="filterModels('all')">All</button>
+            <button onclick="filterModels('house')">Houses</button>
+            <button onclick="filterModels('stadium')">Stadiums</button>
+            <button onclick="filterModels('other')">Others</button>
+        </div>
+
+        <!-- Models Grid -->
+        <div class="model-grid">
+
+            <div class="card" data-category="stadium">
+                <div class="viewer">
+                    <model-viewer src="public/models/olympic.glb" auto-rotate camera-controls></model-viewer>
+                </div>
+
+                <div class="card-content">
+                    <h3>Olympic Stadium</h3>
+                    <a href="/views/olympic.html">View Details</a>
+                </div>
+            </div>
+            <div class="card" data-category="stadium">
+                <div class="viewer">
+                    <model-viewer src="public/models/mansion.glb" auto-rotate camera-controls></model-viewer>
+                </div>
+
+                <div class="card-content">
+                    <h3>Mansion</h3>
+                    <a href="views/mansion.html">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>© 2026 Modex</footer>
+
+</main>
+
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+<script src="/public/javascripts/script.js"></script>
+
+</body>
+</html>
